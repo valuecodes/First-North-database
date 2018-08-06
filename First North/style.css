@@ -11,6 +11,7 @@ body{
     text-decoration: none;
 }
 .main-header a{
+    color: black;
     text-decoration: none;
 }
 
@@ -139,4 +140,48 @@ body{
     padding-bottom: 0px;
 }
 
+.companies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 0.5em;
+}
 
+.boxs{
+    border: 2px solid;
+    height: 70px;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 45px;
+    font-size: 30px;
+}
+
+.listHead{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: rgb(187, 187, 184);
+    /* padding: 10px; */
+    padding-left: 1em;
+    
+}
+
+.listHead h1{
+     
+
+    padding-top: 30px; 
+    padding-left: 1em;
+    /* padding-bottom: 50px; */
+    margin: 0;
+}
+
+.listHead i{
+     
+    padding: 20px;
+    padding-right: 2em;
+    /* padding-bottom: 50px; */
+    margin: 0;
+}
+
+.boxs:hover{
+    background: rgb(149, 211, 247);
+}
